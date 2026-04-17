@@ -20,7 +20,7 @@ main()
 }).catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/whatsapp');
+  await mongoose.connect('await mongoose.connect(process.env.MONGO_URL));
 
  
 }
@@ -96,12 +96,7 @@ app.get("/", (req, res) => {
 });
 
 
-let chat1 = new Chat({
-    from:"neha",
-    to:"priya",
-    msg:"send me ur sheets",
-    created_at: new Date(),  
-});
+
 
 chat1.save().then((res) => {
     console.log(res);
@@ -109,7 +104,8 @@ chat1.save().then((res) => {
 
 
 
-app.listen(8080, () => {
-    console.log("server is listening on port 8080");
+const PORT = process.env.PORT || 8080;
 
+app.listen(PORT, () => {
+    console.log(`server running on ${PORT}`);
 });
