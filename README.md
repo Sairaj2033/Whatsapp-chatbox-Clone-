@@ -1,12 +1,12 @@
 <div align="center">💬 Mongo x Express — Mini WhatsApp
 
-""Node.js" (https://img.shields.io/badge/Node.js-Backend-339933?logo=node.js&logoColor=white)" (https://nodejs.org/)
-""Express.js" (https://img.shields.io/badge/Express.js-Framework-000000?logo=express&logoColor=white)" (https://expressjs.com/)
-""MongoDB" (https://img.shields.io/badge/MongoDB-Database-47A248?logo=mongodb&logoColor=white)" (https://mongodb.com/)
-""EJS" (https://img.shields.io/badge/EJS-Templating-B4CA65?logo=ejs&logoColor=black)" (https://ejs.co/)
-""Render" (https://img.shields.io/badge/Render-Deployed-5C4EE5?logo=render&logoColor=white)" (https://render.com/)
+""Node.js" (https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)" (https://nodejs.org/)
+""Express.js" (https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white)" (https://expressjs.com/)
+""MongoDB" (https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)" (https://mongodb.com/)
+""EJS" (https://img.shields.io/badge/EJS-B4CA65?logo=ejs&logoColor=black)" (https://ejs.co/)
+""Render" (https://img.shields.io/badge/Render-5C4EE5?logo=render&logoColor=white)" (https://render.com/)
 
-</div>🚀 A WhatsApp-style chat app built using MongoDB, Express, Node.js & EJS
+</div>
 
 🔗 Live Demo
 https://whatsapp-chatbox-clone-1.onrender.com/chats
