@@ -1,33 +1,38 @@
-# 📱 Mongo x Express (Mini WhatsApp)
+💬 Mongo x Express (Mini WhatsApp)
 
-A simple **WhatsApp-style chat application** built using **MongoDB, Express, Node.js, and EJS**.
-This project demonstrates full CRUD operations with a clean UI and backend integration.
-
----
-
-## 🚀 Features
-
-* 🟢 Create new chats
-* 📄 View all chats
-* ✏️ Edit existing messages
-* ❌ Delete chats
-* 🕒 Display message time & date
-* 🎨 Simple WhatsApp-style UI
+A simple WhatsApp-style chat application built using MongoDB, Express, Node.js, and EJS.
+This project demonstrates full CRUD operations, REST APIs, and backend integration with a clean UI.
 
 ---
 
-## 🛠️ Tech Stack
+🌐 Live Demo
 
-* **Backend:** Node.js, Express.js
-* **Database:** MongoDB (Mongoose)
-* **Frontend:** EJS, HTML, CSS
-* **Other Tools:** Method-Override, Faker
+👉 https://whatsapp-chatbox-clone-1.onrender.com/chats
 
 ---
 
-## 📂 Project Structure
+🚀 Features
 
-```
+- 🟢 Create new chats
+- 📄 View all chats
+- ✏️ Edit existing messages
+- ❌ Delete chats
+- 🕒 Display message time & date
+- 🎨 Simple WhatsApp-style UI
+
+---
+
+🛠️ Tech Stack
+
+- Backend: Node.js, Express.js
+- Database: MongoDB (Mongoose)
+- Frontend: EJS, HTML, CSS
+- Other Tools: Method-Override, Faker
+
+---
+
+📂 Project Structure
+
 mongo-x-express-mini-whatsapp/
 │
 ├── models/
@@ -44,91 +49,77 @@ mongo-x-express-mini-whatsapp/
 ├── index.js
 ├── package.json
 └── README.md
-```
 
 ---
 
-## ⚙️ Installation & Setup
+⚙️ Installation & Setup
 
 1️⃣ Clone the repository:
 
-```
 git clone https://github.com/Sairaj2033/Whatsapp-chatbox-Clone-.git
-```
 
 2️⃣ Navigate to project folder:
 
-```
 cd mongo-x-express-mini-whatsapp
-```
 
 3️⃣ Install dependencies:
 
-```
 npm install
-```
 
 4️⃣ Start MongoDB locally:
 
-```
 mongod
-```
 
 5️⃣ Run the server:
 
-```
 node index.js
-```
 
 6️⃣ Open browser:
 
-```
 http://localhost:8080/chats
-```
 
 ---
 
-## 🔁 Routes Overview
+🔁 Routes Overview
 
-| Method | Route           | Description          |
-| ------ | --------------- | -------------------- |
-| GET    | /chats          | Show all chats       |
-| GET    | /chats/new      | Create new chat form |
-| POST   | /chats          | Add new chat         |
-| GET    | /chats/:id/edit | Edit chat            |
-| PUT    | /chats/:id      | Update chat          |
-| DELETE | /chats/:id      | Delete chat          |
-
----
-
-## 🧠 Concepts Covered
-
-* Express Routing
-* RESTful APIs
-* MongoDB CRUD Operations
-* Mongoose Models
-* EJS Templating
-* Method Override
-* Form Handling
+Method| Route| Description
+GET| /chats| Show all chats
+GET| /chats/new| Create new chat form
+POST| /chats| Add new chat
+GET| /chats/:id/edit| Edit chat
+PUT| /chats/:id| Update chat
+DELETE| /chats/:id| Delete chat
 
 ---
 
-## 📌 Future Improvements
+🧠 Concepts Covered
 
-* 🔐 User authentication
-* 💬 Real-time chat (Socket.io)
-* 📱 Better UI/UX
-* ☁️ Deployment
+- Express Routing
+- RESTful APIs
+- MongoDB CRUD Operations
+- Mongoose Models
+- EJS Templating
+- Method Override
+- Form Handling
 
 ---
 
-## 🙌 Author
+📌 Future Improvements
 
-**Sairaj Patil**
+- 🔐 User authentication
+- 💬 Real-time chat (Socket.io)
+- 📱 Better UI/UX
+- ☁️ Deployment enhancements
+
+---
+
+🙌 Author
+
+Sairaj Patil
 B.E AI & DS Student | MERN Developer
 
 ---
 
-## ⭐ Support
+⭐ Support
 
 If you like this project, give it a ⭐ on GitHub!
