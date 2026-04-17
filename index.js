@@ -91,10 +91,10 @@ app.delete("/chats/:id", async (req,res) => {
 });
 
 
-app.get("/",(req,res) => {
-    res.send("root is working ");
-  
+app.get("/", (req, res) => {
+    res.redirect("/chats");
 });
+
 
 let chat1 = new Chat({
     from:"neha",
