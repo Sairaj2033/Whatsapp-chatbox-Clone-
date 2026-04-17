@@ -98,9 +98,7 @@ app.get("/", (req, res) => {
 
 
 
-chat1.save().then((res) => {
-    console.log(res);
-})
+
 
 
 
