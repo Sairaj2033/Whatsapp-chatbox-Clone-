@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp Mini</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body style="background-image: url('https://is.zobj.net/image-server/v1/images?r=k5SUqfJSjJ79XBBYVwjiVJhtO5s0ZHgsnEPEa8SsIcWnyDg-GyVoWSKKdEypNNXvAgEpkwy-dLUFOlKe6anN32fAfd-_Vz-zxTxsNV_wiMI9GVUdvfcR2jyhJZSlA62Tn_opCsC1gw42ZRgahmwTDzH1r_9LMLdMwCV7XWTLXxlnCJxR9tOY-uHiXyn7GrcN2lbNjgqfpuj8290gQl4SL49v-a9dHr1A5FhOA2uHcEG1AgOZWIjrUCPAb4A');
+ background-size: contain;" >
+
+  
+    
+<h3 style="color: #25D366;"> <b> Whatsapp mini ! </b> </h3>
+<h6  style="color: #25D366;"> “Manage your chats — create, edit, delete.”</h6>
+
+<form method="GET" action="/chats/new"> 
+  <button class="btn" >New Chat</button>
+</form>
+<br>
+
+<% for(let chat of chats ) { %> 
+    <div class="chat" >
+        <p>From : <i> <%=chat.from%> </i> </p>
+       <div class = "msg" >
+              <p>  <%= chat.msg %> </p>
+              <form    method="GET" action="/chats/<%=chat._id %>/edit">
+                <button class="btn" style="width: 50px;  "> Edit</button>
+              </form>
+               <br>
+              <form    method="POST" action="/chats/<%=chat._id %>?_method=DELETE">
+                <button class="btn" style="width: 60px;  ">Delete</button>
+              </form>
+        </div>
+        <p>Recived by : <br>
+            <i> ~ <%=chat.to%> </i> </p>
+            
+        <hr>
+        <p><%= chat.created_at.toString().split(" ")[4] %></p>
+        <p><%= chat.created_at.toString().split(" ").slice(0, 4).join("-") %></p>
+          <!-- here explain split slice with what it does  and defn later below nont in comments --> 
+    </div>
+    <br>
+  <% } %>
+
+
+ </body>
+ </html>
