@@ -197,11 +197,7 @@ http://localhost:8080/chats
 
 ---
 
-# 📸 Preview
 
-> Add screenshots or GIFs of your application here.
-
----
 
 # 🤝 Contributing
 
