@@ -73,7 +73,7 @@ Response to Browser
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,bootstrap,js,git,github,vscode,npm"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,nodejs,express,mongodb,bootstrap,git,github,vscode,npm"/>
 
 </p>
 
