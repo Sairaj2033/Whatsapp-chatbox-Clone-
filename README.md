@@ -1,4 +1,4 @@
-# 💬 Mini WhatsApp Clone
+# 💬ChatEngine
 
 > A CRUD-based WhatsApp-inspired chat application built with Express.js, MongoDB, and EJS to demonstrate RESTful routing, server-side rendering, and database integration.
 
@@ -24,7 +24,7 @@
 
 # 📖 About
 
-**Mini WhatsApp Clone** is a full-stack CRUD application inspired by WhatsApp's messaging interface. It demonstrates how to build server-rendered applications using **Node.js**, **Express.js**, **MongoDB**, and **EJS** while following RESTful architecture.
+**ChatEngine** is a full-stack CRUD application inspired by WhatsApp's messaging interface. It demonstrates how to build server-rendered applications using **Node.js**, **Express.js**, **MongoDB**, and **EJS** while following RESTful architecture.
 
 Users can create, edit, view, and delete chat messages stored in a MongoDB database.
 
